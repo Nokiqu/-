@@ -1,0 +1,12 @@
+[run]
+source = .
+omit =
+    tests/*
+    .test_deps/*
+    .venv/*
+    main_gui.py
+    */__pycache__/*
+
+[report]
+show_missing = True
+skip_empty = True
